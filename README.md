@@ -24,7 +24,7 @@ parcela_anoN_igpm = parcela_mensal _ (1 + 0.06) ** (N - 1)
 parcela_anoN_juros = parcela_mensal \* (1 + taxa_juros / 100) ** (N - 1)
 
 
-#COMO EXECUTAR
+# COMO EXECUTAR
 
 git clone https://github.com/seu-usuario/aMORA.git
 
