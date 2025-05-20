@@ -14,10 +14,15 @@ Simulador de entrada de imóvei realizado para a empresa aMORA, feito com Javasc
 ## Fórmulas utilizadas
 
 valor_entrada = valor_imovel _ (percentual_entrada / 100)
+
 total_a_guardar = valor_imovel _ 0.15
+
 parcela_mensal = total_a_guardar / (anos_contrato _ 12)
+
 parcela_anoN_igpm = parcela_mensal _ (1 + 0.06) ** (N - 1)
+
 parcela_anoN_juros = parcela_mensal \* (1 + taxa_juros / 100) ** (N - 1)
+
 
 #COMO EXECUTAR
 
